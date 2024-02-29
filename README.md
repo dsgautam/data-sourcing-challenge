@@ -6,6 +6,18 @@ Module 6 Challenge Assignment
 2) Get Movie details from the TMDB API
 3) Merge NT Times Data with the TMDb data, clean, and send the output to a CSV
 
+# Testing consideration
+
+NYT API
+1) There are 200 entries extracted from NYT API. 10 entries per page
+2) Add 12 second sleep delay after each page access to keep within the API access rules
+
+TMDB API
+1) While it is a movie database, not all movies are necesarily found in the database. 
+2) Movie details are accessed using movie_id (see below)
+3) The API limits 50 access each second. The program has a 1 second delay added to stay within the rules of API acces
+4) Some data are stored in relevant colummns as dictionaries and lists. Appropriate data wrangling and transformation methods should be conisdered for making it readable
+
 # Source code
 1) retrieve_movie_data.ipynb
 
