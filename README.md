@@ -1,12 +1,12 @@
 # data-sourcing-challenge
 Module 6 Challenge Assignment
 
-# The solution 
+# Solution 
 1) Access NY Times API and get movie titles using the criteria provided
 2) Get Movie details from the TMDB API
 3) Merge NT Times Data with the TMDb data, clean, and send the output to a CSV
 
-# The source code
+# Source code
 1) retrieve_movie_data.ipynb
 
 # API keys
